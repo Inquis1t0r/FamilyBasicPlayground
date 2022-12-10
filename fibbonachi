@@ -1,0 +1,12 @@
+10 REM Fibonacci sequence generator in Family BASIC
+20 INPUT "Enter a number: ", N
+30 PRINT "The Fibonacci sequence up to ", N, " is:"
+40 A = 0: B = 1: C = 0
+50 PRINT A, B,
+60 FOR I = 3 TO N
+70 C = A + B
+80 PRINT C,
+90 A = B: B = C
+100 NEXT I
+110 PRINT
+120 END
