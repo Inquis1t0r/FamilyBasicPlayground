@@ -1,0 +1,22 @@
+10 ' Set screen size and background color
+20 SCREEN 0
+30 BGCOLOR 0
+
+40 ' Print the Christmas tree
+50 LOCATE 10, 5
+60 PRINT "   *   "
+70 LOCATE 9, 4
+80 PRINT "  ***  "
+90 LOCATE 8, 3
+100 PRINT " ***** "
+110 LOCATE 7, 2
+120 PRINT "*******"
+130 LOCATE 6, 3
+140 PRINT "  ***  "
+150 LOCATE 5, 4
+160 PRINT "   *   "
+
+170 ' Wait for user input
+180 INPUT "Press any key to exit", X
+
+190 END
